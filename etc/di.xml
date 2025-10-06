@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+    @category    Rahulsingh
+    @package     Rahulsingh_CategoryFilter
+    @copyright   Copyright (c) 2025 Rahulsingh
+    @license     https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+    @author      Rahul Singh <rahulsingh.solutions@gmail.com>
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider"
+                type="Rahulsingh\CategoryFilter\Ui\DataProvider\Product\ProductDataProvider"/>
+</config>
