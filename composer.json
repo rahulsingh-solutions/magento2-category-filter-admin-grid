@@ -1,8 +1,14 @@
 {
     "name": "rahul-singh/module-category-filter",
-    "version": "1.0.0",
     "description": "Category filter column in the Magento 2 Admin Product Grid",
     "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rahul Singh",
+            "email": "rahulsingh.solutions@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=8.2 <8.4",
         "magento/framework": "*",
