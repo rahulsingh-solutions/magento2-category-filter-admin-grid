@@ -15,7 +15,18 @@ This module extends the default Magento 2 Admin Product Grid to include a **Cate
 
 ## 🛠️ Installation
 
-### 1. Download and Place the Module
+### Recommended: Install via Composer
+
+Run the following command from your Magento root directory:
+
+```bash
+composer require rahul-singh/module-category-filter
+php bin/magento module:enable Rahulsingh_CategoryFilter
+php bin/magento setup:upgrade
+php bin/magento cache:clean
+````
+
+### 1. Manual Installation (Download and Place the Module)
 
 Create the directory `app/code/Rahulsingh/CategoryFilter` and place all the module files inside it.
 
@@ -49,6 +60,10 @@ After running the commands, navigate to **Admin Panel** \> **Catalog** \> **Prod
 2.  Click on the **Filters** button.
 3.  Locate the **Category** dropdown, select the desired category, and click **Apply Filters**.
 4.  The grid will now only show products assigned to the selected category.
+
+-----
+
+Note: This module has been tested with Magento version 2.4.8-p2 (latest at time of writing).
 
 -----
 
